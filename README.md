@@ -15,15 +15,11 @@ Each project is self-contained in its own folder, making it easy to explore, und
 
 A simple and colorful app that allows you to **change the background** of the page randomly and **add floating SVG shapes** for a playful effect.  
 
-**Features:**
-- Click the **"Change Background"** button to randomly cycle through beautiful gradient backgrounds.
-- Click the **"Add Galaxy Shape"** button to generate floating SVG shapes at random positions on the screen. Shapes fade and shrink smoothly after appearing.
-- Pure JavaScript logic for randomization and animations.  
 
-**Technologies used:**  
-- HTML  
-- CSS
-- Vanilla JavaScript
+### 2. Counter
+**Folder:** `counter`  
+
+A dynamic and colorful **counter app** that lets you **increase, decrease, or reset a number**. The font size changes slightly with each click, and the background color reacts based on whether the count is positive, negative, or zero.  
 
 ---
 
