@@ -33,6 +33,10 @@ A dynamic and colorful **counter app** that lets you **increase, decrease, or re
 
 An interactive **reviews slider app** that lets users **browse through multiple reviews** of different people. You can **click next/previous** to navigate, or hit **“Surprise Me”** to jump to a random review. Each review dynamically updates both the content and the page background for an immersive experience.  
 
+### 4. Navbar Toggle  
+**Folder:** `navbar-toggle`  
+
+A responsive **navigation bar toggle** built with vanilla JavaScript. Users can **show or hide navigation links** by clicking a button, using `classList.toggle()` for a simple and efficient interaction. Keep in mind that the toggle button is displayed only on less than 800px of screen width.  
 ---
 
 > More projects will be added here. Stay tuned! 🚀
