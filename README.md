@@ -43,6 +43,11 @@ A responsive **navigation bar toggle** built with vanilla JavaScript. Users can 
 
 An interactive **FAQ-style accordion app** where users can **expand and collapse questions** to reveal answers. Only one question can be open at a time, creating a clean and user-friendly experience.  
 
+### 6. Galactic Menu  
+**Folder:** `menu`  
+
+A dynamic and visually engaging **menu filtering app** inspired by the Rick and Morty universe. Users can **browse and filter items by category** (e.g., Alien Cuisine, Sci-Fi Substances, Snacks) using interactive buttons generated dynamically with JavaScript. 
+ 
 ---
 
 > More projects will be added here. Stay tuned! 🚀
