@@ -36,7 +36,13 @@ An interactive **reviews slider app** that lets users **browse through multiple 
 ### 4. Navbar Toggle  
 **Folder:** `navbar-toggle`  
 
-A responsive **navigation bar toggle** built with vanilla JavaScript. Users can **show or hide navigation links** by clicking a button, using `classList.toggle()` for a simple and efficient interaction. Keep in mind that the toggle button is displayed only on less than 800px of screen width.  
+A responsive **navigation bar toggle** built with vanilla JavaScript. Users can **show or hide navigation links** by clicking a button, using `classList.toggle()` for a simple and efficient interaction. Keep in mind that the toggle button is only displayed on screens with less than 800px screen width.  
+
+### 5. Questions Accordion  
+**Folder:** `questions-accordion`  
+
+An interactive **FAQ-style accordion app** where users can **expand and collapse questions** to reveal answers. Only one question can be open at a time, creating a clean and user-friendly experience.  
+
 ---
 
 > More projects will be added here. Stay tuned! 🚀
