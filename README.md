@@ -47,7 +47,12 @@ An interactive **FAQ-style accordion app** where users can **expand and collapse
 **Folder:** `menu`  
 
 A dynamic and visually engaging **menu filtering app** inspired by the Rick and Morty universe. Users can **browse and filter items by category** (e.g., Alien Cuisine, Sci-Fi Substances, Snacks) using interactive buttons generated dynamically with JavaScript. 
- 
+
+### 7. Background Video Controller  
+**Folder:** `video`  
+
+A modern **video background app** featuring a fullscreen looping video with an overlay and a smooth **play/pause toggle**. Includes a **custom preloader animation** that hides once the page fully loads, creating a polished user experience.
+
 ---
 
 > More projects will be added here. Stay tuned! 🚀
