@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    /* Background styling */
+    background-image: url('images/adam-chang-IWenq-4JHqo-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+
+    /* Overlay for readability */
+    position: relative;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dark overlay */
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+/* Main container */
+#global-container {
+    position: relative;
+    z-index: 1;
+
+    text-align: center;
+    padding: 2rem 3rem;
+
+    /* Glassmorphism effect */
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Title */
+h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+
+/* Countdown layout */
+.countdown-container {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Each box */
+.countdown-element {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 1.5rem 2rem;
+    border-radius: 15px;
+    min-width: 100px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+/* Hover effect */
+.countdown-element:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.18);
+}
+
+/* Numbers */
+.big-text {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Labels */
+.countdown-element span {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .big-text {
+        font-size: 2.5rem;
+    }
+
+    .countdown-element {
+        padding: 1rem;
+    }
+}

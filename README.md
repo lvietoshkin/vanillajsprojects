@@ -34,7 +34,7 @@ A dynamic and colorful **counter app** that lets you **increase, decrease, or re
 An interactive **reviews slider app** that lets users **browse through multiple reviews** of different people. You can **click next/previous** to navigate, or hit **“Surprise Me”** to jump to a random review. Each review dynamically updates both the content and the page background for an immersive experience.  
 
 ### 4. Navbar Toggle  
-**Folder:** `navbar-toggle`  
+**Folder:** `navbar`  
 
 A responsive **navigation bar toggle** built with vanilla JavaScript. Users can **show or hide navigation links** by clicking a button, using `classList.toggle()` for a simple and efficient interaction. Keep in mind that the toggle button is only displayed on screens with less than 800px screen width.  
 
@@ -52,6 +52,9 @@ A dynamic and visually engaging **menu filtering app** inspired by the Rick and 
 **Folder:** `video`  
 
 A modern **video background app** featuring a fullscreen looping video with an overlay and a smooth **play/pause toggle**. Includes a **custom preloader animation** that hides once the page fully loads, creating a polished user experience.
+
+### 8. Countdown Timer  
+**Folder:** `countdown-timer`  
 
 ---
 
