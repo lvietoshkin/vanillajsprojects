@@ -4,7 +4,10 @@
 
 ## Disclaimer
 
-These projects are based on a tutorial from [YouTube](https://youtu.be/3PHXvlpOkf4?si=wgeuJMGVnyzeAY-5), which I followed as a learning resource. Each project was modified and added unique features to not blindly copy the original ones.
+These projects are based on tutorials:
+* 1-7 (https://youtu.be/3PHXvlpOkf4?si=wgeuJMGVnyzeAY-5)
+* 8-9 (https://www.youtube.com/watch?v=dtKciwk_si4&list=WL&index=1&t=12381s),
+ which I followed as a learning resource. Each project was modified and added unique features to not blindly copy the original ones.
 
 ---
 
@@ -55,6 +58,13 @@ A modern **video background app** featuring a fullscreen looping video with an o
 
 ### 8. Countdown Timer  
 **Folder:** `countdown-timer`  
+
+A customizable **countdown timer app** that lets users **enter a specific date and title**, then dynamically counts down the remaining **days, hours, minutes, and seconds** in real time.  
+
+### 9. Quiz App  
+**Folder:** `quiz`  
+
+A sleek and interactive **quiz application** that presents users with multiple-choice questions and tracks their score in real time. Questions are dynamically loaded, and users receive instant feedback at the end of the quiz.  
 
 ---
 

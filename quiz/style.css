@@ -1,0 +1,121 @@
+/* Reset & base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #333;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Container */
+.quiz-container {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Header */
+.quiz-header {
+    padding: 2rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    color: #222;
+}
+
+/* Answers */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 0.8rem 0;
+    padding: 0.6rem 0.8rem;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+    display: flex;
+    align-items: center;
+}
+
+ul li:hover {
+    background-color: #f4f7fa;
+}
+
+ul li input {
+    margin-right: 0.7rem;
+    cursor: pointer;
+}
+
+ul li label {
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Button */
+button {
+    background: linear-gradient(135deg, #00c9a7, #00b4d8);
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #00b894, #0096c7);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Result screen */
+.quiz-container h2 {
+    text-align: center;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Shake animation */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-6px); }
+    50% { transform: translateX(6px); }
+    75% { transform: translateX(-4px); }
+    100% { transform: translateX(0); }
+}
+
+.quiz-container.shake {
+    animation: shake 0.3s ease;
+    border: 2px solid #ff6b6b;
+}
